@@ -1,0 +1,38 @@
+version,size,model_name,route,status,params_M,weights_file,weights_MB,notes
+v3,n,yolov3n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov3n-cls.pt'
+v3,n,yolov3n-cls,R3,available,2.238,yolov3-tinyu.pt,,"det-backbone intersect 0.818 (36/44 keys); yolov3-tiny as n-scale proxy with yolov3-tinyu detection backbone | init: detection-pretrained backbone (yolov3-tinyu.pt), head random"
+v3,s,yolov3s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov3s-cls.pt'
+v3,std,yolov3u-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov3u-cls.pt'
+v3,std,yolov3-cls,R3,available,69.315,yolov3.pt,,"det-backbone intersect 0.975 (312/320 keys); yolov3 has no n/s scales in ultralytics; single 'standard' size (69M params) | init: detection-pretrained backbone (yolov3.pt), head random"
+v4,n,yolov4n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov4n-cls.pt'
+v4,s,yolov4s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov4s-cls.pt'
+v5,n,yolov5nu-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov5nu-cls.pt'
+v5,n,yolov5n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov5n-cls.pt'
+v5,n,yolov5n-cls,R3,available,1.383,yolov5nu.pt,,"det-backbone intersect 0.961 (198/206 keys);  | init: detection-pretrained backbone (yolov5nu.pt), head random"
+v5,s,yolov5su-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov5su-cls.pt'
+v5,s,yolov5s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov5s-cls.pt'
+v5,s,yolov5s-cls,R3,available,4.836,yolov5su.pt,,"det-backbone intersect 0.961 (198/206 keys);  | init: detection-pretrained backbone (yolov5su.pt), head random"
+v6,n,yolov6n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov6n-cls.pt'
+v6,n,yolov6n-cls,R3,failed,,none,,yolov6 yaml has scales; ultralytics hosts no yolov6*.pt det weights => no detection-pretrained init available (scope allows pretrained only) | no pretrained weights available in Ultralytics (random init rejected per protocol)
+v6,s,yolov6s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov6s-cls.pt'
+v6,s,yolov6s-cls,R3,failed,,none,,yolov6 yaml has scales; ultralytics hosts no yolov6*.pt det weights => no detection-pretrained init available (scope allows pretrained only) | no pretrained weights available in Ultralytics (random init rejected per protocol)
+v7,n,yolov7n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov7n-cls.pt'
+v7,s,yolov7s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov7s-cls.pt'
+v8,n,yolov8n-cls,R1,available,2.719,yolov8n-cls.pt,5.56,"native ultralytics *-cls.pt, ImageNet-pretrained"
+v8,s,yolov8s-cls,R1,available,6.362,yolov8s-cls.pt,12.86,"native ultralytics *-cls.pt, ImageNet-pretrained"
+v9,n,yolov9n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov9n-cls.pt'
+v9,n,yolov9t-cls,R3,available,0.882,yolov9t.pt,,"det-backbone intersect 0.986 (570/578 keys); ultralytics v9 sizes are t/s/m/c/e; t is the n-class equivalent | init: detection-pretrained backbone (yolov9t.pt), head random"
+v9,s,yolov9s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov9s-cls.pt'
+v9,s,yolov9s-cls,R3,available,3.157,yolov9s.pt,,"det-backbone intersect 0.986 (570/578 keys);  | init: detection-pretrained backbone (yolov9s.pt), head random"
+v10,n,yolov10n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov10n-cls.pt'
+v10,n,yolov10n-cls,R3,available,1.536,yolov10n.pt,,"det-backbone intersect 0.964 (216/224 keys);  | init: detection-pretrained backbone (yolov10n.pt), head random"
+v10,s,yolov10s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolov10s-cls.pt'
+v10,s,yolov10s-cls,R3,available,4.553,yolov10s.pt,,"det-backbone intersect 0.968 (240/248 keys);  | init: detection-pretrained backbone (yolov10s.pt), head random"
+v11,n,yolo11n-cls,R1,available,2.812,yolo11n-cls.pt,5.79,"native ultralytics *-cls.pt, ImageNet-pretrained"
+v11,s,yolo11s-cls,R1,available,6.724,yolo11s-cls.pt,13.63,"native ultralytics *-cls.pt, ImageNet-pretrained"
+v12,n,yolo12n-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolo12n-cls.pt'
+v12,n,yolo12n-cls,R3,available,1.725,yolo12n.pt,,"det-backbone intersect 0.977 (342/350 keys);  | init: detection-pretrained backbone (yolo12n.pt), head random"
+v12,s,yolo12s-cls,R1,failed,,,,[Errno 2] No such file or directory: 'yolo12s-cls.pt'
+v12,s,yolo12s-cls,R3,available,6.111,yolo12s.pt,,"det-backbone intersect 0.977 (342/350 keys);  | init: detection-pretrained backbone (yolo12s.pt), head random"
+v26-bonus,26n,yolo26n-cls,R1,available,2.812,yolo26n-cls.pt,5.79,"native ultralytics *-cls.pt, ImageNet-pretrained"
+v26-bonus,26s,yolo26s-cls,R1,available,6.724,yolo26s-cls.pt,13.62,"native ultralytics *-cls.pt, ImageNet-pretrained"

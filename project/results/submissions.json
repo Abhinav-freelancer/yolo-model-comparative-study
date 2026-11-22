@@ -1,0 +1,104 @@
+{
+  "top3": [
+    "v11_s_pretrained_seed0",
+    "v8_s_pretrained_seed0",
+    "v11_n_pretrained_seed0"
+  ],
+  "created": [
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_plain.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_flip_tta.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_plain.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_flip_tta.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_plain.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_flip_tta.csv",
+    "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_top3_mean_softmax.csv"
+  ],
+  "validation_csv": "D:\\personal projects\\yolo models project\\project\\results\\submission_validation.csv",
+  "validations": [
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_plain.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_flip_tta.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_plain.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_flip_tta.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_plain.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_flip_tta.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    },
+    {
+      "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_top3_mean_softmax.csv",
+      "rows": 3774,
+      "columns_ok": true,
+      "row_count_ok": true,
+      "no_duplicate_ids": true,
+      "no_missing_ids": true,
+      "ids_in_sample_order": true,
+      "filenames_have_extension": true,
+      "labels_ok": true,
+      "passed": true
+    }
+  ],
+  "hidden_labels_checked": false
+}

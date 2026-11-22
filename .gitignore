@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ultralytics/
+__MACOSX/
+.DS_Store
+
+# Raw datasets and archives (download separately)
+data set/
+project/data/train/
+project/data/val/
+project/data/test/
+project/data/dataset/
+project/data/dataset_smoke/
+project/dataset/
+project/dataset_smoke/
+*.zip
+*.cache
+
+# Training artifacts
+project/runs/
+project/runs_smoke/
+project/submissions/
+*.log
+*.bak*
+
+# Exceeds GitHub's 100 MB per-file limit
+project/yolov3u.pt

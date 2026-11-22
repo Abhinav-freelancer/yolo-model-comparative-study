@@ -1,0 +1,14 @@
+run_name,model_name,route,params_M,gflops_224,best_pt_MB,latency_ms_per_img_b1,latency_ms_per_img_b32
+v8_n_pretrained_seed0,yolov8n-cls,R1,1.4447,0.2057,2.972,6.4731,0.2763
+v8_s_pretrained_seed0,yolov8s-cls,R1,5.0871,0.7708,10.265,6.0756,0.5947
+v11_n_pretrained_seed0,yolo11n-cls,R1,1.5375,0.1991,3.195,9.0425,0.3037
+v11_s_pretrained_seed0,yolo11s-cls,R1,5.4494,0.7432,11.033,8.2777,0.6365
+v3_n_pretrained_seed0,YOLOv3-tiny,R3,2.2381,0.3494,4.515,1.7966,0.3896
+v5_n_pretrained_seed0,yolov5n-cls,R3,1.383,0.1901,2.869,8.5679,0.3201
+v5_s_pretrained_seed0,yolov5s-cls,R3,4.8358,0.6752,9.784,11.561,0.5974
+v9_n_pretrained_seed0,yolov9t-cls,R3,0.8815,0.1816,2.017,19.0895,0.6499
+v9_s_pretrained_seed0,yolov9s-cls,R3,3.1572,0.6872,6.58,23.7026,0.9048
+v10_n_pretrained_seed0,yolov10n-cls,R3,1.5356,0.2111,3.189,11.1786,0.4465
+v10_s_pretrained_seed0,yolov10s-cls,R3,4.5531,0.7467,9.257,16.2181,0.7028
+v12_n_pretrained_seed0,yolo12n-cls,R3,1.7249,0.223,3.632,25.0211,0.8618
+v12_s_pretrained_seed0,yolo12s-cls,R3,6.1109,0.8278,12.434,28.1873,1.3196

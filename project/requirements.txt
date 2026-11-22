@@ -1,0 +1,23 @@
+# NOTE: torch/torchvision are installed SEPARATELY (CUDA 12.1 wheels, 2.4 GB).
+# NEVER `pip install -U torch torchvision` here - it would replace the CUDA build
+# with a CPU build. Install everything else with:
+#   pip install -r requirements.txt
+# then verify: python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+# Expected: 2.5.1+cu121 True
+
+torch==2.5.1        # installed manually (+cu121); pinned to avoid accidental reinstall
+torchvision==0.20.1 # installed manually (+cu121); pinned to avoid accidental reinstall
+ultralytics==8.4.215
+timm==1.0.31
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+pyyaml
+thop
+pillow
+opencv-python
+scipy
+rich

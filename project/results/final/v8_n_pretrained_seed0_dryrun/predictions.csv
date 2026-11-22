@@ -1,0 +1,11 @@
+image,true,predicted,confidence,correct
+data\dataset\val\cbb\train-cbb-11.jpg,cbb,cbsd,0.893593,0
+data\dataset\val\cbb\train-cbb-117.jpg,cbb,cbb,0.952888,1
+data\dataset\val\cbsd\train-cbsd-0.jpg,cbsd,cbsd,0.999372,1
+data\dataset\val\cbsd\train-cbsd-1027.jpg,cbsd,cbsd,0.972127,1
+data\dataset\val\cgm\train-cgm-104.jpg,cgm,cmd,0.520143,0
+data\dataset\val\cgm\train-cgm-106.jpg,cgm,cgm,0.773139,1
+data\dataset\val\cmd\train-cmd-0.jpg,cmd,cmd,0.972556,1
+data\dataset\val\cmd\train-cmd-1003.jpg,cmd,cmd,0.763442,1
+data\dataset\val\healthy\train-healthy-124.jpg,healthy,healthy,0.995771,1
+data\dataset\val\healthy\train-healthy-14.jpg,healthy,healthy,0.999821,1

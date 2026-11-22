@@ -1,0 +1,815 @@
+{
+  "status": "ok",
+  "mode": "report-only",
+  "state": {
+    "step0": {
+      "failures": "results\\failures.csv absent; no failed runs were recorded (all 13 passed)",
+      "weights": [
+        {
+          "run_name": "v10_n_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\runs\\v10_n_pretrained_seed0\\weights\\best.pt",
+          "sha256": "c71e1b43f3b41b3d750002038d889b5160dfab69eb5c23a1d1a8282118ddb594"
+        },
+        {
+          "run_name": "v12_n_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\runs\\v12_n_pretrained_seed0\\weights\\best.pt",
+          "sha256": "1677246581b35d01cf87593f1e643ac4bf0db768bf8f3b3e7ad9bd3778ad23fa"
+        },
+        {
+          "run_name": "v12_s_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\runs\\v12_s_pretrained_seed0\\weights\\best.pt",
+          "sha256": "736841cbd04b7713318363c856b65dfc672b3e52be7580b72f18bc65fe0049ce"
+        }
+      ],
+      "predictions": [
+        {
+          "run_name": "v10_n_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v10_n_pretrained_seed0_val_predictions.csv",
+          "sha256": "61a87a9a9a5810914ff56dbef1da7024891d59bc430d86c3101ca24708a3e58b",
+          "correct": 457,
+          "n_images": 564
+        },
+        {
+          "run_name": "v12_n_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v12_n_pretrained_seed0_val_predictions.csv",
+          "sha256": "d44d84d9ee3e529d26eae876c0be024a0fddaae105911613d540a2ed66790e19",
+          "correct": 457,
+          "n_images": 564
+        },
+        {
+          "run_name": "v12_s_pretrained_seed0",
+          "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v12_s_pretrained_seed0_val_predictions.csv",
+          "sha256": "fe81cd39183abec13359b3f838958ed41b8bffdec44ce88a997459599ca60b41",
+          "correct": 457,
+          "n_images": 564
+        }
+      ],
+      "all_correct_457_of_564": true,
+      "distinct_weights": true,
+      "distinct_prediction_files": true
+    },
+    "step1": {
+      "v11_s_pretrained_seed0": {
+        "out_dir": "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test",
+        "summary": {
+          "run": "v11_s_pretrained_seed0",
+          "route": "R1",
+          "split": "test",
+          "mode": "hold-out",
+          "device": "0",
+          "n_images": 565,
+          "class_names": [
+            "cbb",
+            "cbsd",
+            "cgm",
+            "cmd",
+            "healthy"
+          ],
+          "name_mapping": {
+            "0": "cbb",
+            "1": "cbsd",
+            "2": "cgm",
+            "3": "cmd",
+            "4": "healthy"
+          },
+          "imgsz": 224,
+          "inference_seconds": 6.47,
+          "precision": [
+            0.6888888888888889,
+            0.8695652173913043,
+            0.7906976744186046,
+            0.9341085271317829,
+            0.7105263157894737
+          ],
+          "recall": [
+            0.6595744680851063,
+            0.8333333333333334,
+            0.8831168831168831,
+            0.9060150375939849,
+            0.8709677419354839
+          ],
+          "f1": [
+            0.6739130434782609,
+            0.851063829787234,
+            0.8343558282208589,
+            0.9198473282442748,
+            0.782608695652174
+          ],
+          "support": [
+            47,
+            144,
+            77,
+            266,
+            31
+          ],
+          "one_vs_rest_accuracy": [
+            0.9469026548672567,
+            0.9256637168141593,
+            0.952212389380531,
+            0.9256637168141593,
+            0.9734513274336283
+          ],
+          "macro_precision": 0.7987573247240108,
+          "macro_recall": 0.8306014928129584,
+          "macro_f1": 0.8123577450765606,
+          "weighted_precision": 0.8654479186174976,
+          "weighted_recall": 0.8619469026548673,
+          "weighted_f1": 0.8626774551929922,
+          "accuracy": 0.8619469026548673,
+          "balanced_accuracy": 0.8306014928129584
+        },
+        "per_class": [
+          {
+            "metric": "cbb",
+            "precision": "0.688889",
+            "recall": "0.659574",
+            "f1": "0.673913",
+            "one_vs_rest_accuracy": "0.946903",
+            "support": "47",
+            "value": ""
+          },
+          {
+            "metric": "cbsd",
+            "precision": "0.869565",
+            "recall": "0.833333",
+            "f1": "0.851064",
+            "one_vs_rest_accuracy": "0.925664",
+            "support": "144",
+            "value": ""
+          },
+          {
+            "metric": "cgm",
+            "precision": "0.790698",
+            "recall": "0.883117",
+            "f1": "0.834356",
+            "one_vs_rest_accuracy": "0.952212",
+            "support": "77",
+            "value": ""
+          },
+          {
+            "metric": "cmd",
+            "precision": "0.934109",
+            "recall": "0.906015",
+            "f1": "0.919847",
+            "one_vs_rest_accuracy": "0.925664",
+            "support": "266",
+            "value": ""
+          },
+          {
+            "metric": "healthy",
+            "precision": "0.710526",
+            "recall": "0.870968",
+            "f1": "0.782609",
+            "one_vs_rest_accuracy": "0.973451",
+            "support": "31",
+            "value": ""
+          },
+          {
+            "metric": "macro_avg",
+            "precision": "0.798757",
+            "recall": "0.830601",
+            "f1": "0.812358",
+            "one_vs_rest_accuracy": "0.830601",
+            "support": "565",
+            "value": ""
+          },
+          {
+            "metric": "weighted_avg",
+            "precision": "0.865448",
+            "recall": "0.861947",
+            "f1": "0.862677",
+            "one_vs_rest_accuracy": "0.830601",
+            "support": "565",
+            "value": ""
+          },
+          {
+            "metric": "overall_accuracy",
+            "precision": "",
+            "recall": "",
+            "f1": "",
+            "one_vs_rest_accuracy": "",
+            "support": "",
+            "value": "0.861947"
+          },
+          {
+            "metric": "balanced_accuracy",
+            "precision": "",
+            "recall": "",
+            "f1": "",
+            "one_vs_rest_accuracy": "",
+            "support": "",
+            "value": "0.830601"
+          }
+        ],
+        "pngs": [
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\confusion_matrix.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\confusion_matrix_normalized.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\overall_metrics.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\per_class_accuracy.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\per_class_prf.png"
+        ],
+        "reused_existing_evaluation": true
+      },
+      "v8_s_pretrained_seed0": {
+        "out_dir": "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test",
+        "summary": {
+          "run": "v8_s_pretrained_seed0",
+          "route": "R1",
+          "split": "test",
+          "mode": "hold-out",
+          "device": "0",
+          "n_images": 565,
+          "class_names": [
+            "cbb",
+            "cbsd",
+            "cgm",
+            "cmd",
+            "healthy"
+          ],
+          "name_mapping": {
+            "0": "cbb",
+            "1": "cbsd",
+            "2": "cgm",
+            "3": "cmd",
+            "4": "healthy"
+          },
+          "imgsz": 224,
+          "inference_seconds": 6.13,
+          "precision": [
+            0.7619047619047619,
+            0.8857142857142857,
+            0.8235294117647058,
+            0.9305019305019305,
+            0.6923076923076923
+          ],
+          "recall": [
+            0.6808510638297872,
+            0.8611111111111112,
+            0.9090909090909091,
+            0.9060150375939849,
+            0.8709677419354839
+          ],
+          "f1": [
+            0.7191011235955056,
+            0.8732394366197183,
+            0.8641975308641975,
+            0.9180952380952381,
+            0.7714285714285715
+          ],
+          "support": [
+            47,
+            144,
+            77,
+            266,
+            31
+          ],
+          "one_vs_rest_accuracy": [
+            0.9557522123893806,
+            0.9362831858407079,
+            0.9610619469026549,
+            0.9238938053097345,
+            0.9716814159292035
+          ],
+          "macro_precision": 0.8187916164386753,
+          "macro_recall": 0.8456071727122552,
+          "macro_f1": 0.8292123801206461,
+          "weighted_precision": 0.8774145090855138,
+          "weighted_recall": 0.8743362831858407,
+          "weighted_f1": 0.8747169214272398,
+          "accuracy": 0.8743362831858407,
+          "balanced_accuracy": 0.8456071727122552
+        },
+        "per_class": [
+          {
+            "metric": "cbb",
+            "precision": "0.761905",
+            "recall": "0.680851",
+            "f1": "0.719101",
+            "one_vs_rest_accuracy": "0.955752",
+            "support": "47",
+            "value": ""
+          },
+          {
+            "metric": "cbsd",
+            "precision": "0.885714",
+            "recall": "0.861111",
+            "f1": "0.873239",
+            "one_vs_rest_accuracy": "0.936283",
+            "support": "144",
+            "value": ""
+          },
+          {
+            "metric": "cgm",
+            "precision": "0.823529",
+            "recall": "0.909091",
+            "f1": "0.864198",
+            "one_vs_rest_accuracy": "0.961062",
+            "support": "77",
+            "value": ""
+          },
+          {
+            "metric": "cmd",
+            "precision": "0.930502",
+            "recall": "0.906015",
+            "f1": "0.918095",
+            "one_vs_rest_accuracy": "0.923894",
+            "support": "266",
+            "value": ""
+          },
+          {
+            "metric": "healthy",
+            "precision": "0.692308",
+            "recall": "0.870968",
+            "f1": "0.771429",
+            "one_vs_rest_accuracy": "0.971681",
+            "support": "31",
+            "value": ""
+          },
+          {
+            "metric": "macro_avg",
+            "precision": "0.818792",
+            "recall": "0.845607",
+            "f1": "0.829212",
+            "one_vs_rest_accuracy": "0.845607",
+            "support": "565",
+            "value": ""
+          },
+          {
+            "metric": "weighted_avg",
+            "precision": "0.877415",
+            "recall": "0.874336",
+            "f1": "0.874717",
+            "one_vs_rest_accuracy": "0.845607",
+            "support": "565",
+            "value": ""
+          },
+          {
+            "metric": "overall_accuracy",
+            "precision": "",
+            "recall": "",
+            "f1": "",
+            "one_vs_rest_accuracy": "",
+            "support": "",
+            "value": "0.874336"
+          },
+          {
+            "metric": "balanced_accuracy",
+            "precision": "",
+            "recall": "",
+            "f1": "",
+            "one_vs_rest_accuracy": "",
+            "support": "",
+            "value": "0.845607"
+          }
+        ],
+        "pngs": [
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\confusion_matrix.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\confusion_matrix_normalized.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\overall_metrics.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\per_class_accuracy.png",
+          "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\per_class_prf.png"
+        ],
+        "reused_existing_evaluation": false
+      }
+    },
+    "step2": {
+      "csv": "D:\\personal projects\\yolo models project\\project\\results\\comparison_val.csv",
+      "chart": "D:\\personal projects\\yolo models project\\project\\results\\comparison_val.png",
+      "rows": [
+        {
+          "rank": 1,
+          "run_name": "v11_s_pretrained_seed0",
+          "model_name": "yolo11s-cls",
+          "route": "R1",
+          "version": "v11",
+          "size": "s",
+          "val_accuracy": 0.870567,
+          "val_macro_precision": 0.810623,
+          "val_macro_recall": 0.855079,
+          "val_macro_f1": 0.829294
+        },
+        {
+          "rank": 2,
+          "run_name": "v8_s_pretrained_seed0",
+          "model_name": "yolov8s-cls",
+          "route": "R1",
+          "version": "v8",
+          "size": "s",
+          "val_accuracy": 0.868794,
+          "val_macro_precision": 0.809924,
+          "val_macro_recall": 0.855655,
+          "val_macro_f1": 0.828997
+        },
+        {
+          "rank": 3,
+          "run_name": "v11_n_pretrained_seed0",
+          "model_name": "yolo11n-cls",
+          "route": "R1",
+          "version": "v11",
+          "size": "n",
+          "val_accuracy": 0.856383,
+          "val_macro_precision": 0.780016,
+          "val_macro_recall": 0.839377,
+          "val_macro_f1": 0.803592
+        },
+        {
+          "rank": 4,
+          "run_name": "v3_n_pretrained_seed0",
+          "model_name": "YOLOv3-tiny",
+          "route": "R3",
+          "version": "v3",
+          "size": "n",
+          "val_accuracy": 0.85461,
+          "val_macro_precision": 0.786222,
+          "val_macro_recall": 0.825316,
+          "val_macro_f1": 0.803331
+        },
+        {
+          "rank": 5,
+          "run_name": "v8_n_pretrained_seed0",
+          "model_name": "yolov8n-cls",
+          "route": "R1",
+          "version": "v8",
+          "size": "n",
+          "val_accuracy": 0.845745,
+          "val_macro_precision": 0.77791,
+          "val_macro_recall": 0.818939,
+          "val_macro_f1": 0.794849
+        },
+        {
+          "rank": 6,
+          "run_name": "v9_s_pretrained_seed0",
+          "model_name": "yolov9s-cls",
+          "route": "R3",
+          "version": "v9",
+          "size": "s",
+          "val_accuracy": 0.842199,
+          "val_macro_precision": 0.768255,
+          "val_macro_recall": 0.81675,
+          "val_macro_f1": 0.787018
+        },
+        {
+          "rank": 7,
+          "run_name": "v9_n_pretrained_seed0",
+          "model_name": "yolov9t-cls",
+          "route": "R3",
+          "version": "v9",
+          "size": "n",
+          "val_accuracy": 0.824468,
+          "val_macro_precision": 0.747456,
+          "val_macro_recall": 0.800906,
+          "val_macro_f1": 0.767563
+        },
+        {
+          "rank": 8,
+          "run_name": "v5_n_pretrained_seed0",
+          "model_name": "yolov5n-cls",
+          "route": "R3",
+          "version": "v5",
+          "size": "n",
+          "val_accuracy": 0.820922,
+          "val_macro_precision": 0.745819,
+          "val_macro_recall": 0.803104,
+          "val_macro_f1": 0.763419
+        },
+        {
+          "rank": 9,
+          "run_name": "v5_s_pretrained_seed0",
+          "model_name": "yolov5s-cls",
+          "route": "R3",
+          "version": "v5",
+          "size": "s",
+          "val_accuracy": 0.81383,
+          "val_macro_precision": 0.733586,
+          "val_macro_recall": 0.790702,
+          "val_macro_f1": 0.755818
+        },
+        {
+          "rank": 10,
+          "run_name": "v12_n_pretrained_seed0",
+          "model_name": "yolo12n-cls",
+          "route": "R3",
+          "version": "v12",
+          "size": "n",
+          "val_accuracy": 0.810284,
+          "val_macro_precision": 0.738163,
+          "val_macro_recall": 0.779808,
+          "val_macro_f1": 0.750708
+        },
+        {
+          "rank": 11,
+          "run_name": "v12_s_pretrained_seed0",
+          "model_name": "yolo12s-cls",
+          "route": "R3",
+          "version": "v12",
+          "size": "s",
+          "val_accuracy": 0.810284,
+          "val_macro_precision": 0.730049,
+          "val_macro_recall": 0.762876,
+          "val_macro_f1": 0.743706
+        },
+        {
+          "rank": 12,
+          "run_name": "v10_n_pretrained_seed0",
+          "model_name": "yolov10n-cls",
+          "route": "R3",
+          "version": "v10",
+          "size": "n",
+          "val_accuracy": 0.810284,
+          "val_macro_precision": 0.720998,
+          "val_macro_recall": 0.762868,
+          "val_macro_f1": 0.73668
+        },
+        {
+          "rank": 13,
+          "run_name": "v10_s_pretrained_seed0",
+          "model_name": "yolov10s-cls",
+          "route": "R3",
+          "version": "v10",
+          "size": "s",
+          "val_accuracy": 0.771277,
+          "val_macro_precision": 0.698106,
+          "val_macro_recall": 0.736655,
+          "val_macro_f1": 0.708735
+        }
+      ]
+    },
+    "step3": {
+      "csv": "D:\\personal projects\\yolo models project\\project\\results\\efficiency.csv",
+      "records": [
+        {
+          "run_name": "v8_n_pretrained_seed0",
+          "model_name": "yolov8n-cls",
+          "route": "R1",
+          "params_M": 1.4447,
+          "gflops_224": 0.2057,
+          "best_pt_MB": 2.972,
+          "latency_ms_per_img_b1": 6.4731,
+          "latency_ms_per_img_b32": 0.2763
+        },
+        {
+          "run_name": "v8_s_pretrained_seed0",
+          "model_name": "yolov8s-cls",
+          "route": "R1",
+          "params_M": 5.0871,
+          "gflops_224": 0.7708,
+          "best_pt_MB": 10.265,
+          "latency_ms_per_img_b1": 6.0756,
+          "latency_ms_per_img_b32": 0.5947
+        },
+        {
+          "run_name": "v11_n_pretrained_seed0",
+          "model_name": "yolo11n-cls",
+          "route": "R1",
+          "params_M": 1.5375,
+          "gflops_224": 0.1991,
+          "best_pt_MB": 3.195,
+          "latency_ms_per_img_b1": 9.0425,
+          "latency_ms_per_img_b32": 0.3037
+        },
+        {
+          "run_name": "v11_s_pretrained_seed0",
+          "model_name": "yolo11s-cls",
+          "route": "R1",
+          "params_M": 5.4494,
+          "gflops_224": 0.7432,
+          "best_pt_MB": 11.033,
+          "latency_ms_per_img_b1": 8.2777,
+          "latency_ms_per_img_b32": 0.6365
+        },
+        {
+          "run_name": "v3_n_pretrained_seed0",
+          "model_name": "YOLOv3-tiny",
+          "route": "R3",
+          "params_M": 2.2381,
+          "gflops_224": 0.3494,
+          "best_pt_MB": 4.515,
+          "latency_ms_per_img_b1": 1.7966,
+          "latency_ms_per_img_b32": 0.3896
+        },
+        {
+          "run_name": "v5_n_pretrained_seed0",
+          "model_name": "yolov5n-cls",
+          "route": "R3",
+          "params_M": 1.383,
+          "gflops_224": 0.1901,
+          "best_pt_MB": 2.869,
+          "latency_ms_per_img_b1": 8.5679,
+          "latency_ms_per_img_b32": 0.3201
+        },
+        {
+          "run_name": "v5_s_pretrained_seed0",
+          "model_name": "yolov5s-cls",
+          "route": "R3",
+          "params_M": 4.8358,
+          "gflops_224": 0.6752,
+          "best_pt_MB": 9.784,
+          "latency_ms_per_img_b1": 11.561,
+          "latency_ms_per_img_b32": 0.5974
+        },
+        {
+          "run_name": "v9_n_pretrained_seed0",
+          "model_name": "yolov9t-cls",
+          "route": "R3",
+          "params_M": 0.8815,
+          "gflops_224": 0.1816,
+          "best_pt_MB": 2.017,
+          "latency_ms_per_img_b1": 19.0895,
+          "latency_ms_per_img_b32": 0.6499
+        },
+        {
+          "run_name": "v9_s_pretrained_seed0",
+          "model_name": "yolov9s-cls",
+          "route": "R3",
+          "params_M": 3.1572,
+          "gflops_224": 0.6872,
+          "best_pt_MB": 6.58,
+          "latency_ms_per_img_b1": 23.7026,
+          "latency_ms_per_img_b32": 0.9048
+        },
+        {
+          "run_name": "v10_n_pretrained_seed0",
+          "model_name": "yolov10n-cls",
+          "route": "R3",
+          "params_M": 1.5356,
+          "gflops_224": 0.2111,
+          "best_pt_MB": 3.189,
+          "latency_ms_per_img_b1": 11.1786,
+          "latency_ms_per_img_b32": 0.4465
+        },
+        {
+          "run_name": "v10_s_pretrained_seed0",
+          "model_name": "yolov10s-cls",
+          "route": "R3",
+          "params_M": 4.5531,
+          "gflops_224": 0.7467,
+          "best_pt_MB": 9.257,
+          "latency_ms_per_img_b1": 16.2181,
+          "latency_ms_per_img_b32": 0.7028
+        },
+        {
+          "run_name": "v12_n_pretrained_seed0",
+          "model_name": "yolo12n-cls",
+          "route": "R3",
+          "params_M": 1.7249,
+          "gflops_224": 0.223,
+          "best_pt_MB": 3.632,
+          "latency_ms_per_img_b1": 25.0211,
+          "latency_ms_per_img_b32": 0.8618
+        },
+        {
+          "run_name": "v12_s_pretrained_seed0",
+          "model_name": "yolo12s-cls",
+          "route": "R3",
+          "params_M": 6.1109,
+          "gflops_224": 0.8278,
+          "best_pt_MB": 12.434,
+          "latency_ms_per_img_b1": 28.1873,
+          "latency_ms_per_img_b32": 1.3196
+        }
+      ]
+    },
+    "step4": {
+      "method": "1000 bootstrap resamples, seed 0; exact two-sided McNemar via scipy.stats.binomtest",
+      "alpha": 0.05,
+      "v11_s_pretrained_seed0": {
+        "accuracy": 0.8619469026548673,
+        "macro_f1": 0.8123577450765606,
+        "accuracy_ci95": [
+          0.831858407079646,
+          0.8867699115044247
+        ],
+        "macro_f1_ci95": [
+          0.7688629591984042,
+          0.8491771684155088
+        ]
+      },
+      "v8_s_pretrained_seed0": {
+        "accuracy": 0.8743362831858407,
+        "macro_f1": 0.8292123801206461,
+        "accuracy_ci95": [
+          0.8460176991150442,
+          0.9008849557522124
+        ],
+        "macro_f1_ci95": [
+          0.784458327312421,
+          0.8682780875340222
+        ]
+      },
+      "mcnemar": {
+        "v11s_correct_v8s_wrong": 21,
+        "v11s_wrong_v8s_correct": 28,
+        "discordant_total": 49,
+        "p_value": 0.3916029105474905,
+        "significant_at_0_05": false
+      }
+    },
+    "step5": {
+      "top3": [
+        "v11_s_pretrained_seed0",
+        "v8_s_pretrained_seed0",
+        "v11_n_pretrained_seed0"
+      ],
+      "created": [
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_plain.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_flip_tta.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_plain.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_flip_tta.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_plain.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_flip_tta.csv",
+        "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_top3_mean_softmax.csv"
+      ],
+      "validation_csv": "D:\\personal projects\\yolo models project\\project\\results\\submission_validation.csv",
+      "validations": [
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_plain.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_s_pretrained_seed0_flip_tta.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_plain.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v8_s_pretrained_seed0_flip_tta.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_plain.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_v11_n_pretrained_seed0_flip_tta.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        },
+        {
+          "file": "D:\\personal projects\\yolo models project\\project\\results\\submissions\\submission_top3_mean_softmax.csv",
+          "rows": 3774,
+          "columns_ok": true,
+          "row_count_ok": true,
+          "no_duplicate_ids": true,
+          "no_missing_ids": true,
+          "ids_in_sample_order": true,
+          "filenames_have_extension": true,
+          "labels_ok": true,
+          "passed": true
+        }
+      ],
+      "hidden_labels_checked": false
+    },
+    "step6": {
+      "report": "D:\\personal projects\\yolo models project\\project\\results\\REPORT.md"
+    }
+  }
+}

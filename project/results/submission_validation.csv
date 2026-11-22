@@ -1,0 +1,8 @@
+file,rows,columns_ok,row_count_ok,no_duplicate_ids,no_missing_ids,ids_in_sample_order,filenames_have_extension,labels_ok,passed
+D:\personal projects\yolo models project\project\results\submissions\submission_v11_s_pretrained_seed0_plain.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_v11_s_pretrained_seed0_flip_tta.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_v8_s_pretrained_seed0_plain.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_v8_s_pretrained_seed0_flip_tta.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_v11_n_pretrained_seed0_plain.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_v11_n_pretrained_seed0_flip_tta.csv,3774,True,True,True,True,True,True,True,True
+D:\personal projects\yolo models project\project\results\submissions\submission_top3_mean_softmax.csv,3774,True,True,True,True,True,True,True,True

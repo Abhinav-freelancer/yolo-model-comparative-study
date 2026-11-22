@@ -1,0 +1,114 @@
+[
+  {
+    "version": "v3",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov3n-cls",
+    "run_name": "v3_n_pretrained_seed0"
+  },
+  {
+    "version": "v3",
+    "size": "std",
+    "route": "R3",
+    "model_name": "yolov3-cls",
+    "run_name": "v3_std_pretrained_seed0"
+  },
+  {
+    "version": "v5",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov5n-cls",
+    "run_name": "v5_n_pretrained_seed0"
+  },
+  {
+    "version": "v5",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov5s-cls",
+    "run_name": "v5_s_pretrained_seed0"
+  },
+  {
+    "version": "v8",
+    "size": "n",
+    "route": "R1",
+    "model_name": "yolov8n-cls",
+    "run_name": "v8_n_pretrained_seed0"
+  },
+  {
+    "version": "v8",
+    "size": "s",
+    "route": "R1",
+    "model_name": "yolov8s-cls",
+    "run_name": "v8_s_pretrained_seed0"
+  },
+  {
+    "version": "v9",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov9t-cls",
+    "run_name": "v9_n_pretrained_seed0"
+  },
+  {
+    "version": "v9",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov9s-cls",
+    "run_name": "v9_s_pretrained_seed0"
+  },
+  {
+    "version": "v10",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov10n-cls",
+    "run_name": "v10_n_pretrained_seed0"
+  },
+  {
+    "version": "v10",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov10s-cls",
+    "run_name": "v10_s_pretrained_seed0"
+  },
+  {
+    "version": "v11",
+    "size": "n",
+    "route": "R1",
+    "model_name": "yolo11n-cls",
+    "run_name": "v11_n_pretrained_seed0"
+  },
+  {
+    "version": "v11",
+    "size": "s",
+    "route": "R1",
+    "model_name": "yolo11s-cls",
+    "run_name": "v11_s_pretrained_seed0"
+  },
+  {
+    "version": "v12",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolo12n-cls",
+    "run_name": "v12_n_pretrained_seed0"
+  },
+  {
+    "version": "v12",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolo12s-cls",
+    "run_name": "v12_s_pretrained_seed0"
+  },
+  {
+    "version": "v26-bonus",
+    "size": "26n",
+    "route": "R1",
+    "model_name": "yolo26n-cls",
+    "run_name": "v26-bonus_26n_pretrained_seed0"
+  },
+  {
+    "version": "v26-bonus",
+    "size": "26s",
+    "route": "R1",
+    "model_name": "yolo26s-cls",
+    "run_name": "v26-bonus_26s_pretrained_seed0"
+  }
+]

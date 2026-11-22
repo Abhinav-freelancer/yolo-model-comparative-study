@@ -1,0 +1,99 @@
+# ============================================================
+# Cassava YOLO classification benchmark - single source of truth
+# Scope: MINIMUM DELIVERABLE (pretrained n/s, 1 seed, imgsz 224,
+#        class-weighted CE). No m/l/x, no scratch, no ablations
+#        until the user approves.
+# ============================================================
+
+project_name: yolo_cassava_cls_benchmark
+
+paths:
+  raw_root: "../data set"          # original dataset (note the space!)
+  data_root: "./data"              # normalized: test/, sampleSubmission.csv
+  dataset_dir: "./data/dataset"    # ultralytics cls layout {train,val,test}/<cls>/*.jpg
+  smoke_dataset_dir: "./data/dataset_smoke"
+  splits_dir: "./splits"
+  results_dir: "./results"
+  runs_dir: "./runs"               # full runs
+  smoke_runs_dir: "./runs_smoke"   # smoke runs
+  submissions_dir: "./submissions"
+
+classes: [cbb, cbsd, cgm, cmd, healthy]
+nc: 5
+
+# split_seed42.csv was built with seed 42 (prepare_data.py). All models share it.
+split:
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1   # internal hold-out; evaluated ONCE per final model, never tuned on
+  seed: 42
+
+# Which versions/sizes to probe in check_availability.py
+availability:
+  versions: [v3, v4, v5, v6, v7, v8, v9, v10, v11, v12]
+  sizes: [n, s]                  # weight-download probing only for these (budget)
+  extra_native_names:            # bonus probes (recorded, not trained unless approved)
+    - yolo26n-cls
+    - yolo26s-cls
+
+training:
+  seed: 0                        # run seed (split seed is separate: 42)
+  imgsz: 224
+  epochs: 30
+  patience: 10
+  batch: 16                      # 4 GB VRAM (RTX 3050 Laptop, 4096 MiB)
+  min_batch: 8                   # OOM retry halves once: 16 -> 8
+  workers: 2                     # fall back to 0 on Windows multiprocessing errors
+  cache: false                   # 16 GB RAM, no headroom
+  amp: true
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01                      # final lr = lr0 * lrf under cosine
+  cos_lr: true
+  warmup_epochs: 3
+  weight_decay: 0.0005
+  label_smoothing: 0.1           # NOT a native arg in ultralytics 8.4.215 (removed);
+                                 # applied via custom criterion in train.py
+  imbalance_mode: class_weighted_ce
+  cls_pw: 1.0                    # native ultralytics inverse-frequency class weights
+  save_period: 1                 # checkpoint every epoch (resumability after crash)
+  fraction: 1.0
+  augs:                          # identical for every model (fair comparison)
+    hsv_h: 0.015                 # mild HSV jitter (color matters for disease)
+    hsv_s: 0.4
+    hsv_v: 0.4
+    degrees: 15.0                # rotation +/-15
+    translate: 0.1
+    scale: 0.5                   # RandomResizedCrop area range (0.5, 1.0)
+    fliplr: 0.5
+    flipud: 0.5
+    mixup: 0.0
+    cutmix: 0.0
+    auto_augment: null           # baseline: off (strong-aug ablation only if approved)
+    erasing: 0.0
+    crop_fraction: null
+
+smoke:
+  subset_frac: 0.1               # stratified 10% subset
+  epochs: 2
+  patience: 2
+  seed: 0
+
+gpu_watch:
+  enabled: true
+  poll_sec: 15
+  temp_warn_c: 85                # warn at/below this temp (laptop GPU throttling)
+  clock_warn_frac: 0.7           # warn if SM clock < 70% of max for 3+ consecutive polls
+
+budget:
+  total_gpu_hours: 15
+  cut_order:                     # applied if estimate exceeds budget (reported to user)
+    - "1) epochs 50 -> 30"
+    - "2) drop s-size for R3 models"
+    - "3) drop R3 models entirely"
+
+notes: >
+  Minimum deliverable first pass: pretrained n/s, seed 0, imgsz 224,
+  class-weighted CE (cls_pw=1.0), AdamW lr0=1e-3 cosine, label smoothing 0.1
+  (custom criterion), 50 epochs / patience 10. Batch 16 (4 GB VRAM), AMP on,
+  workers 2, cache off, sequential runs, checkpoint every epoch, resumable.

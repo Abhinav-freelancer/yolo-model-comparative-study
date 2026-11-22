@@ -1,0 +1,100 @@
+{
+  "train_counts_raw": {
+    "cbb": 466,
+    "cbsd": 1443,
+    "cgm": 773,
+    "cmd": 2658,
+    "healthy": 316
+  },
+  "counts_after_clean": {
+    "cbb": 466,
+    "cbsd": 1439,
+    "cgm": 764,
+    "cmd": 2656,
+    "healthy": 316
+  },
+  "corrupt_files": [],
+  "duplicate_groups": {
+    "cc5e495c5d7f8e50c392af29ab5b07eb": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-115.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-656.jpg"
+    ],
+    "8f43a107f6cc605e747b40fe91c4150f": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-213.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-321.jpg"
+    ],
+    "41dbd73c8823c0992268fd1a2c92653b": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-216.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-687.jpg"
+    ],
+    "70562f0b471bfb021e4da930fdff23e8": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-247.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-328.jpg"
+    ],
+    "206e79f52dbb5506358c47890dba99ef": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-306.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-931.jpg"
+    ],
+    "47d71ffe224d9421a282930db4c8c8ca": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-374.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-698.jpg"
+    ],
+    "dfbf446bd9ebce68c86a5fae8cb7c096": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-381.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-216.jpg"
+    ],
+    "3d83cddb63d8625c350029c2eb221352": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbb\\train-cbb-405.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-246.jpg"
+    ],
+    "c527aed926895b5d9213faf622ca2637": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-1046.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-253.jpg"
+    ],
+    "eabe565d39ee621a8b24a1e410799533": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-1354.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-455.jpg"
+    ],
+    "ed685499c879c39464b16c3294080aef": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-1419.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-279.jpg"
+    ],
+    "ee616e7969a68b56c407c103d7d05ac7": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-666.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-166.jpg"
+    ],
+    "8c676fee84ed698602d2543d702b60ab": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cbsd\\train-cbsd-791.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cgm\\train-cgm-90.jpg"
+    ],
+    "53a6ea44810c00caa6c9571744c82d57": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cmd\\train-cmd-1150.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cmd\\train-cmd-2167.jpg"
+    ],
+    "2bcf7925245747c33a5ddfc53c6bdc89": [
+      "D:\\personal projects\\yolo models project\\data set\\train\\cmd\\train-cmd-2003.jpg",
+      "D:\\personal projects\\yolo models project\\data set\\train\\cmd\\train-cmd-966.jpg"
+    ]
+  },
+  "n_duplicates_removed": 15,
+  "resolution_summary_wh": {
+    "min_wh": [
+      424,
+      347
+    ],
+    "median_wh": [
+      544,
+      500
+    ],
+    "max_wh": [
+      1622,
+      1240
+    ]
+  },
+  "split_counts": {
+    "train": 4512,
+    "val": 564,
+    "test": 565
+  },
+  "test_images_count": 3774
+}

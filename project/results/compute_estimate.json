@@ -1,0 +1,152 @@
+{
+  "protocol_epochs": 30,
+  "budget_gpu_hours": 15,
+  "total_models": 13,
+  "total_est_30ep_gpu_hours": 14.08,
+  "fits_budget": true,
+  "per_model_estimates": [
+    {
+      "version": "v5",
+      "size": "n",
+      "route": "R3",
+      "model_name": "yolov5n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 18.78,
+      "est_full_sec_per_epoch": 187.8,
+      "est_30ep_gpu_hours": 1.565
+    },
+    {
+      "version": "v5",
+      "size": "s",
+      "route": "R3",
+      "model_name": "yolov5s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.28,
+      "est_full_sec_per_epoch": 122.8,
+      "est_30ep_gpu_hours": 1.023
+    },
+    {
+      "version": "v8",
+      "size": "n",
+      "route": "R1",
+      "model_name": "yolov8n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 10.76,
+      "est_full_sec_per_epoch": 107.6,
+      "est_30ep_gpu_hours": 0.897
+    },
+    {
+      "version": "v8",
+      "size": "s",
+      "route": "R1",
+      "model_name": "yolov8s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.37,
+      "est_full_sec_per_epoch": 123.7,
+      "est_30ep_gpu_hours": 1.031
+    },
+    {
+      "version": "v9",
+      "size": "n",
+      "route": "R3",
+      "model_name": "yolov9t-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 13.6,
+      "est_full_sec_per_epoch": 136.0,
+      "est_30ep_gpu_hours": 1.133
+    },
+    {
+      "version": "v9",
+      "size": "s",
+      "route": "R3",
+      "model_name": "yolov9s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 13.87,
+      "est_full_sec_per_epoch": 138.7,
+      "est_30ep_gpu_hours": 1.156
+    },
+    {
+      "version": "v10",
+      "size": "n",
+      "route": "R3",
+      "model_name": "yolov10n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.2,
+      "est_full_sec_per_epoch": 122.0,
+      "est_30ep_gpu_hours": 1.017
+    },
+    {
+      "version": "v10",
+      "size": "s",
+      "route": "R3",
+      "model_name": "yolov10s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.42,
+      "est_full_sec_per_epoch": 124.2,
+      "est_30ep_gpu_hours": 1.035
+    },
+    {
+      "version": "v11",
+      "size": "n",
+      "route": "R1",
+      "model_name": "yolo11n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.17,
+      "est_full_sec_per_epoch": 121.7,
+      "est_30ep_gpu_hours": 1.014
+    },
+    {
+      "version": "v11",
+      "size": "s",
+      "route": "R1",
+      "model_name": "yolo11s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.5,
+      "est_full_sec_per_epoch": 125.0,
+      "est_30ep_gpu_hours": 1.042
+    },
+    {
+      "version": "v3",
+      "size": "n",
+      "route": "R3",
+      "model_name": "yolov3n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 13.6,
+      "est_full_sec_per_epoch": 136.0,
+      "est_30ep_gpu_hours": 1.133
+    },
+    {
+      "version": "v12",
+      "size": "n",
+      "route": "R3",
+      "model_name": "yolo12n-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.31,
+      "est_full_sec_per_epoch": 123.1,
+      "est_30ep_gpu_hours": 1.026
+    },
+    {
+      "version": "v12",
+      "size": "s",
+      "route": "R3",
+      "model_name": "yolo12s-cls",
+      "status": "passed",
+      "batch_used": 16,
+      "smoke_sec_per_epoch": 12.05,
+      "est_full_sec_per_epoch": 120.5,
+      "est_30ep_gpu_hours": 1.004
+    }
+  ]
+}

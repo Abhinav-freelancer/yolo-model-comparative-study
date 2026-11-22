@@ -1,0 +1,405 @@
+[
+  {
+    "run_name": "v5_n_pretrained_seed0",
+    "version": "v5",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov5n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 37.56,
+    "sec_per_epoch": 18.78,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v5_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 44,
+      "sm_clock_mhz": 1500,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.714,
+      "mem_used_mib": 0,
+      "mem_total_mib": 4096,
+      "throttled": false
+    },
+    "gpu_after": {
+      "temp_c": 48,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 297,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v5_s_pretrained_seed0",
+    "version": "v5",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov5s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.55,
+    "sec_per_epoch": 12.28,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v5_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 48,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 297,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 51,
+      "sm_clock_mhz": 307,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.146,
+      "mem_used_mib": 367,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v8_n_pretrained_seed0",
+    "version": "v8",
+    "size": "n",
+    "route": "R1",
+    "model_name": "yolov8n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 21.52,
+    "sec_per_epoch": 10.76,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v8_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 51,
+      "sm_clock_mhz": 307,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.146,
+      "mem_used_mib": 367,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 51,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 271,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v8_s_pretrained_seed0",
+    "version": "v8",
+    "size": "s",
+    "route": "R1",
+    "model_name": "yolov8s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.74,
+    "sec_per_epoch": 12.37,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v8_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 51,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 271,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 51,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 369,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v9_n_pretrained_seed0",
+    "version": "v9",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov9t-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 27.19,
+    "sec_per_epoch": 13.6,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v9_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 51,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 369,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 265,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v9_s_pretrained_seed0",
+    "version": "v9",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov9s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 27.73,
+    "sec_per_epoch": 13.87,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v9_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 265,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 343,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v10_n_pretrained_seed0",
+    "version": "v10",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov10n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.4,
+    "sec_per_epoch": 12.2,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v10_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 343,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 277,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v10_s_pretrained_seed0",
+    "version": "v10",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolov10s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.85,
+    "sec_per_epoch": 12.42,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v10_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 277,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 51,
+      "sm_clock_mhz": 240,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.114,
+      "mem_used_mib": 347,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v11_n_pretrained_seed0",
+    "version": "v11",
+    "size": "n",
+    "route": "R1",
+    "model_name": "yolo11n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.34,
+    "sec_per_epoch": 12.17,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v11_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 51,
+      "sm_clock_mhz": 240,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.114,
+      "mem_used_mib": 347,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 295,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v11_s_pretrained_seed0",
+    "version": "v11",
+    "size": "s",
+    "route": "R1",
+    "model_name": "yolo11s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.99,
+    "sec_per_epoch": 12.5,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v11_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 50,
+      "sm_clock_mhz": 210,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.1,
+      "mem_used_mib": 295,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 51,
+      "sm_clock_mhz": 225,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.107,
+      "mem_used_mib": 351,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v3_n_pretrained_seed0",
+    "version": "v3",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolov3n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 27.2,
+    "sec_per_epoch": 13.6,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v3_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 42,
+      "sm_clock_mhz": 1500,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.714,
+      "mem_used_mib": 0,
+      "mem_total_mib": 4096,
+      "throttled": false
+    },
+    "gpu_after": {
+      "temp_c": 47,
+      "sm_clock_mhz": 232,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.11,
+      "mem_used_mib": 277,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v12_n_pretrained_seed0",
+    "version": "v12",
+    "size": "n",
+    "route": "R3",
+    "model_name": "yolo12n-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.61,
+    "sec_per_epoch": 12.31,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v12_n_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 47,
+      "sm_clock_mhz": 232,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.11,
+      "mem_used_mib": 277,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 49,
+      "sm_clock_mhz": 247,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.118,
+      "mem_used_mib": 339,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  },
+  {
+    "run_name": "v12_s_pretrained_seed0",
+    "version": "v12",
+    "size": "s",
+    "route": "R3",
+    "model_name": "yolo12s-cls",
+    "status": "passed",
+    "epochs_done": 2,
+    "batch_used": 16,
+    "total_seconds": 24.09,
+    "sec_per_epoch": 12.05,
+    "run_dir": "D:\\personal projects\\yolo models project\\project\\runs_smoke\\v12_s_pretrained_seed0",
+    "gpu_before": {
+      "temp_c": 49,
+      "sm_clock_mhz": 247,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.118,
+      "mem_used_mib": 339,
+      "mem_total_mib": 4096,
+      "throttled": true
+    },
+    "gpu_after": {
+      "temp_c": 52,
+      "sm_clock_mhz": 315,
+      "max_sm_clock_mhz": 2100,
+      "clock_ratio": 0.15,
+      "mem_used_mib": 381,
+      "mem_total_mib": 4096,
+      "throttled": true
+    }
+  }
+]

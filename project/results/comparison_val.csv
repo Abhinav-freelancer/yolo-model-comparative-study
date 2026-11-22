@@ -1,0 +1,14 @@
+rank,run_name,model_name,route,version,size,val_accuracy,val_macro_precision,val_macro_recall,val_macro_f1
+1,v11_s_pretrained_seed0,yolo11s-cls,R1,v11,s,0.870567,0.810623,0.855079,0.829294
+2,v8_s_pretrained_seed0,yolov8s-cls,R1,v8,s,0.868794,0.809924,0.855655,0.828997
+3,v11_n_pretrained_seed0,yolo11n-cls,R1,v11,n,0.856383,0.780016,0.839377,0.803592
+4,v3_n_pretrained_seed0,YOLOv3-tiny,R3,v3,n,0.85461,0.786222,0.825316,0.803331
+5,v8_n_pretrained_seed0,yolov8n-cls,R1,v8,n,0.845745,0.77791,0.818939,0.794849
+6,v9_s_pretrained_seed0,yolov9s-cls,R3,v9,s,0.842199,0.768255,0.81675,0.787018
+7,v9_n_pretrained_seed0,yolov9t-cls,R3,v9,n,0.824468,0.747456,0.800906,0.767563
+8,v5_n_pretrained_seed0,yolov5n-cls,R3,v5,n,0.820922,0.745819,0.803104,0.763419
+9,v5_s_pretrained_seed0,yolov5s-cls,R3,v5,s,0.81383,0.733586,0.790702,0.755818
+10,v12_n_pretrained_seed0,yolo12n-cls,R3,v12,n,0.810284,0.738163,0.779808,0.750708
+11,v12_s_pretrained_seed0,yolo12s-cls,R3,v12,s,0.810284,0.730049,0.762876,0.743706
+12,v10_n_pretrained_seed0,yolov10n-cls,R3,v10,n,0.810284,0.720998,0.762868,0.73668
+13,v10_s_pretrained_seed0,yolov10s-cls,R3,v10,s,0.771277,0.698106,0.736655,0.708735

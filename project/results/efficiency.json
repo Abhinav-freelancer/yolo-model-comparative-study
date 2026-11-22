@@ -1,0 +1,132 @@
+[
+  {
+    "run_name": "v8_n_pretrained_seed0",
+    "model_name": "yolov8n-cls",
+    "route": "R1",
+    "params_M": 1.4447,
+    "gflops_224": 0.2057,
+    "best_pt_MB": 2.972,
+    "latency_ms_per_img_b1": 6.4731,
+    "latency_ms_per_img_b32": 0.2763
+  },
+  {
+    "run_name": "v8_s_pretrained_seed0",
+    "model_name": "yolov8s-cls",
+    "route": "R1",
+    "params_M": 5.0871,
+    "gflops_224": 0.7708,
+    "best_pt_MB": 10.265,
+    "latency_ms_per_img_b1": 6.0756,
+    "latency_ms_per_img_b32": 0.5947
+  },
+  {
+    "run_name": "v11_n_pretrained_seed0",
+    "model_name": "yolo11n-cls",
+    "route": "R1",
+    "params_M": 1.5375,
+    "gflops_224": 0.1991,
+    "best_pt_MB": 3.195,
+    "latency_ms_per_img_b1": 9.0425,
+    "latency_ms_per_img_b32": 0.3037
+  },
+  {
+    "run_name": "v11_s_pretrained_seed0",
+    "model_name": "yolo11s-cls",
+    "route": "R1",
+    "params_M": 5.4494,
+    "gflops_224": 0.7432,
+    "best_pt_MB": 11.033,
+    "latency_ms_per_img_b1": 8.2777,
+    "latency_ms_per_img_b32": 0.6365
+  },
+  {
+    "run_name": "v3_n_pretrained_seed0",
+    "model_name": "YOLOv3-tiny",
+    "route": "R3",
+    "params_M": 2.2381,
+    "gflops_224": 0.3494,
+    "best_pt_MB": 4.515,
+    "latency_ms_per_img_b1": 1.7966,
+    "latency_ms_per_img_b32": 0.3896
+  },
+  {
+    "run_name": "v5_n_pretrained_seed0",
+    "model_name": "yolov5n-cls",
+    "route": "R3",
+    "params_M": 1.383,
+    "gflops_224": 0.1901,
+    "best_pt_MB": 2.869,
+    "latency_ms_per_img_b1": 8.5679,
+    "latency_ms_per_img_b32": 0.3201
+  },
+  {
+    "run_name": "v5_s_pretrained_seed0",
+    "model_name": "yolov5s-cls",
+    "route": "R3",
+    "params_M": 4.8358,
+    "gflops_224": 0.6752,
+    "best_pt_MB": 9.784,
+    "latency_ms_per_img_b1": 11.561,
+    "latency_ms_per_img_b32": 0.5974
+  },
+  {
+    "run_name": "v9_n_pretrained_seed0",
+    "model_name": "yolov9t-cls",
+    "route": "R3",
+    "params_M": 0.8815,
+    "gflops_224": 0.1816,
+    "best_pt_MB": 2.017,
+    "latency_ms_per_img_b1": 19.0895,
+    "latency_ms_per_img_b32": 0.6499
+  },
+  {
+    "run_name": "v9_s_pretrained_seed0",
+    "model_name": "yolov9s-cls",
+    "route": "R3",
+    "params_M": 3.1572,
+    "gflops_224": 0.6872,
+    "best_pt_MB": 6.58,
+    "latency_ms_per_img_b1": 23.7026,
+    "latency_ms_per_img_b32": 0.9048
+  },
+  {
+    "run_name": "v10_n_pretrained_seed0",
+    "model_name": "yolov10n-cls",
+    "route": "R3",
+    "params_M": 1.5356,
+    "gflops_224": 0.2111,
+    "best_pt_MB": 3.189,
+    "latency_ms_per_img_b1": 11.1786,
+    "latency_ms_per_img_b32": 0.4465
+  },
+  {
+    "run_name": "v10_s_pretrained_seed0",
+    "model_name": "yolov10s-cls",
+    "route": "R3",
+    "params_M": 4.5531,
+    "gflops_224": 0.7467,
+    "best_pt_MB": 9.257,
+    "latency_ms_per_img_b1": 16.2181,
+    "latency_ms_per_img_b32": 0.7028
+  },
+  {
+    "run_name": "v12_n_pretrained_seed0",
+    "model_name": "yolo12n-cls",
+    "route": "R3",
+    "params_M": 1.7249,
+    "gflops_224": 0.223,
+    "best_pt_MB": 3.632,
+    "latency_ms_per_img_b1": 25.0211,
+    "latency_ms_per_img_b32": 0.8618
+  },
+  {
+    "run_name": "v12_s_pretrained_seed0",
+    "model_name": "yolo12s-cls",
+    "route": "R3",
+    "params_M": 6.1109,
+    "gflops_224": 0.8278,
+    "best_pt_MB": 12.434,
+    "latency_ms_per_img_b1": 28.1873,
+    "latency_ms_per_img_b32": 1.3196
+  }
+]

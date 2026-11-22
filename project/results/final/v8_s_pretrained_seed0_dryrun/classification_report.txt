@@ -1,0 +1,41 @@
+FINAL MODEL EVALUATION
+Run: v8_s_pretrained_seed0
+Route: R1
+Split: val
+Images: 10
+Class order (from model.names): ['cbb', 'cbsd', 'cgm', 'cmd', 'healthy']
+
+              precision    recall  f1-score   support
+
+         cbb       1.00      0.50      0.67         2
+        cbsd       0.67      1.00      0.80         2
+         cgm       1.00      1.00      1.00         2
+         cmd       1.00      1.00      1.00         2
+     healthy       1.00      1.00      1.00         2
+
+    accuracy                           0.90        10
+   macro avg       0.93      0.90      0.89        10
+weighted avg       0.93      0.90      0.89        10
+
+
+Overall accuracy   : 0.900000
+Balanced accuracy  : 0.900000
+Macro precision    : 0.933333
+Macro recall       : 0.900000
+Macro F1           : 0.893333
+Weighted F1        : 0.893333
+
+Per-class one-vs-rest accuracy:
+  cbb: 0.900000
+  cbsd: 0.900000
+  cgm: 1.000000
+  cmd: 1.000000
+  healthy: 1.000000
+
+Confusion matrix (rows=true, cols=predicted):
+true\pred	cbb	cbsd	cgm	cmd	healthy
+cbb	1	1	0	0	0
+cbsd	0	2	0	0	0
+cgm	0	0	2	0	0
+cmd	0	0	0	2	0
+healthy	0	0	0	0	2

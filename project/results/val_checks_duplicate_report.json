@@ -1,0 +1,46 @@
+{
+  "failures": "results\\failures.csv absent; no failed runs were recorded (all 13 passed)",
+  "weights": [
+    {
+      "run_name": "v10_n_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\runs\\v10_n_pretrained_seed0\\weights\\best.pt",
+      "sha256": "c71e1b43f3b41b3d750002038d889b5160dfab69eb5c23a1d1a8282118ddb594"
+    },
+    {
+      "run_name": "v12_n_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\runs\\v12_n_pretrained_seed0\\weights\\best.pt",
+      "sha256": "1677246581b35d01cf87593f1e643ac4bf0db768bf8f3b3e7ad9bd3778ad23fa"
+    },
+    {
+      "run_name": "v12_s_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\runs\\v12_s_pretrained_seed0\\weights\\best.pt",
+      "sha256": "736841cbd04b7713318363c856b65dfc672b3e52be7580b72f18bc65fe0049ce"
+    }
+  ],
+  "predictions": [
+    {
+      "run_name": "v10_n_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v10_n_pretrained_seed0_val_predictions.csv",
+      "sha256": "61a87a9a9a5810914ff56dbef1da7024891d59bc430d86c3101ca24708a3e58b",
+      "correct": 457,
+      "n_images": 564
+    },
+    {
+      "run_name": "v12_n_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v12_n_pretrained_seed0_val_predictions.csv",
+      "sha256": "d44d84d9ee3e529d26eae876c0be024a0fddaae105911613d540a2ed66790e19",
+      "correct": 457,
+      "n_images": 564
+    },
+    {
+      "run_name": "v12_s_pretrained_seed0",
+      "path": "D:\\personal projects\\yolo models project\\project\\results\\val_checks\\v12_s_pretrained_seed0_val_predictions.csv",
+      "sha256": "fe81cd39183abec13359b3f838958ed41b8bffdec44ce88a997459599ca60b41",
+      "correct": 457,
+      "n_images": 564
+    }
+  ],
+  "all_correct_457_of_564": true,
+  "distinct_weights": true,
+  "distinct_prediction_files": true
+}

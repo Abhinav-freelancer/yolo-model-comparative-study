@@ -1,0 +1,35 @@
+{
+  "method": "1000 bootstrap resamples, seed 0; exact two-sided McNemar via scipy.stats.binomtest",
+  "alpha": 0.05,
+  "v11_s_pretrained_seed0": {
+    "accuracy": 0.8619469026548673,
+    "macro_f1": 0.8123577450765606,
+    "accuracy_ci95": [
+      0.831858407079646,
+      0.8867699115044247
+    ],
+    "macro_f1_ci95": [
+      0.7688629591984042,
+      0.8491771684155088
+    ]
+  },
+  "v8_s_pretrained_seed0": {
+    "accuracy": 0.8743362831858407,
+    "macro_f1": 0.8292123801206461,
+    "accuracy_ci95": [
+      0.8460176991150442,
+      0.9008849557522124
+    ],
+    "macro_f1_ci95": [
+      0.784458327312421,
+      0.8682780875340222
+    ]
+  },
+  "mcnemar": {
+    "v11s_correct_v8s_wrong": 21,
+    "v11s_wrong_v8s_correct": 28,
+    "discordant_total": 49,
+    "p_value": 0.3916029105474905,
+    "significant_at_0_05": false
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "v11_s_pretrained_seed0": {
+    "out_dir": "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test",
+    "summary": {
+      "run": "v11_s_pretrained_seed0",
+      "route": "R1",
+      "split": "test",
+      "mode": "hold-out",
+      "device": "0",
+      "n_images": 565,
+      "class_names": [
+        "cbb",
+        "cbsd",
+        "cgm",
+        "cmd",
+        "healthy"
+      ],
+      "name_mapping": {
+        "0": "cbb",
+        "1": "cbsd",
+        "2": "cgm",
+        "3": "cmd",
+        "4": "healthy"
+      },
+      "imgsz": 224,
+      "inference_seconds": 6.47,
+      "precision": [
+        0.6888888888888889,
+        0.8695652173913043,
+        0.7906976744186046,
+        0.9341085271317829,
+        0.7105263157894737
+      ],
+      "recall": [
+        0.6595744680851063,
+        0.8333333333333334,
+        0.8831168831168831,
+        0.9060150375939849,
+        0.8709677419354839
+      ],
+      "f1": [
+        0.6739130434782609,
+        0.851063829787234,
+        0.8343558282208589,
+        0.9198473282442748,
+        0.782608695652174
+      ],
+      "support": [
+        47,
+        144,
+        77,
+        266,
+        31
+      ],
+      "one_vs_rest_accuracy": [
+        0.9469026548672567,
+        0.9256637168141593,
+        0.952212389380531,
+        0.9256637168141593,
+        0.9734513274336283
+      ],
+      "macro_precision": 0.7987573247240108,
+      "macro_recall": 0.8306014928129584,
+      "macro_f1": 0.8123577450765606,
+      "weighted_precision": 0.8654479186174976,
+      "weighted_recall": 0.8619469026548673,
+      "weighted_f1": 0.8626774551929922,
+      "accuracy": 0.8619469026548673,
+      "balanced_accuracy": 0.8306014928129584
+    },
+    "per_class": [
+      {
+        "metric": "cbb",
+        "precision": "0.688889",
+        "recall": "0.659574",
+        "f1": "0.673913",
+        "one_vs_rest_accuracy": "0.946903",
+        "support": "47",
+        "value": ""
+      },
+      {
+        "metric": "cbsd",
+        "precision": "0.869565",
+        "recall": "0.833333",
+        "f1": "0.851064",
+        "one_vs_rest_accuracy": "0.925664",
+        "support": "144",
+        "value": ""
+      },
+      {
+        "metric": "cgm",
+        "precision": "0.790698",
+        "recall": "0.883117",
+        "f1": "0.834356",
+        "one_vs_rest_accuracy": "0.952212",
+        "support": "77",
+        "value": ""
+      },
+      {
+        "metric": "cmd",
+        "precision": "0.934109",
+        "recall": "0.906015",
+        "f1": "0.919847",
+        "one_vs_rest_accuracy": "0.925664",
+        "support": "266",
+        "value": ""
+      },
+      {
+        "metric": "healthy",
+        "precision": "0.710526",
+        "recall": "0.870968",
+        "f1": "0.782609",
+        "one_vs_rest_accuracy": "0.973451",
+        "support": "31",
+        "value": ""
+      },
+      {
+        "metric": "macro_avg",
+        "precision": "0.798757",
+        "recall": "0.830601",
+        "f1": "0.812358",
+        "one_vs_rest_accuracy": "0.830601",
+        "support": "565",
+        "value": ""
+      },
+      {
+        "metric": "weighted_avg",
+        "precision": "0.865448",
+        "recall": "0.861947",
+        "f1": "0.862677",
+        "one_vs_rest_accuracy": "0.830601",
+        "support": "565",
+        "value": ""
+      },
+      {
+        "metric": "overall_accuracy",
+        "precision": "",
+        "recall": "",
+        "f1": "",
+        "one_vs_rest_accuracy": "",
+        "support": "",
+        "value": "0.861947"
+      },
+      {
+        "metric": "balanced_accuracy",
+        "precision": "",
+        "recall": "",
+        "f1": "",
+        "one_vs_rest_accuracy": "",
+        "support": "",
+        "value": "0.830601"
+      }
+    ],
+    "pngs": [
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\confusion_matrix.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\confusion_matrix_normalized.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\overall_metrics.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\per_class_accuracy.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v11_s_pretrained_seed0_test\\per_class_prf.png"
+    ],
+    "reused_existing_evaluation": true
+  },
+  "v8_s_pretrained_seed0": {
+    "out_dir": "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test",
+    "summary": {
+      "run": "v8_s_pretrained_seed0",
+      "route": "R1",
+      "split": "test",
+      "mode": "hold-out",
+      "device": "0",
+      "n_images": 565,
+      "class_names": [
+        "cbb",
+        "cbsd",
+        "cgm",
+        "cmd",
+        "healthy"
+      ],
+      "name_mapping": {
+        "0": "cbb",
+        "1": "cbsd",
+        "2": "cgm",
+        "3": "cmd",
+        "4": "healthy"
+      },
+      "imgsz": 224,
+      "inference_seconds": 6.13,
+      "precision": [
+        0.7619047619047619,
+        0.8857142857142857,
+        0.8235294117647058,
+        0.9305019305019305,
+        0.6923076923076923
+      ],
+      "recall": [
+        0.6808510638297872,
+        0.8611111111111112,
+        0.9090909090909091,
+        0.9060150375939849,
+        0.8709677419354839
+      ],
+      "f1": [
+        0.7191011235955056,
+        0.8732394366197183,
+        0.8641975308641975,
+        0.9180952380952381,
+        0.7714285714285715
+      ],
+      "support": [
+        47,
+        144,
+        77,
+        266,
+        31
+      ],
+      "one_vs_rest_accuracy": [
+        0.9557522123893806,
+        0.9362831858407079,
+        0.9610619469026549,
+        0.9238938053097345,
+        0.9716814159292035
+      ],
+      "macro_precision": 0.8187916164386753,
+      "macro_recall": 0.8456071727122552,
+      "macro_f1": 0.8292123801206461,
+      "weighted_precision": 0.8774145090855138,
+      "weighted_recall": 0.8743362831858407,
+      "weighted_f1": 0.8747169214272398,
+      "accuracy": 0.8743362831858407,
+      "balanced_accuracy": 0.8456071727122552
+    },
+    "per_class": [
+      {
+        "metric": "cbb",
+        "precision": "0.761905",
+        "recall": "0.680851",
+        "f1": "0.719101",
+        "one_vs_rest_accuracy": "0.955752",
+        "support": "47",
+        "value": ""
+      },
+      {
+        "metric": "cbsd",
+        "precision": "0.885714",
+        "recall": "0.861111",
+        "f1": "0.873239",
+        "one_vs_rest_accuracy": "0.936283",
+        "support": "144",
+        "value": ""
+      },
+      {
+        "metric": "cgm",
+        "precision": "0.823529",
+        "recall": "0.909091",
+        "f1": "0.864198",
+        "one_vs_rest_accuracy": "0.961062",
+        "support": "77",
+        "value": ""
+      },
+      {
+        "metric": "cmd",
+        "precision": "0.930502",
+        "recall": "0.906015",
+        "f1": "0.918095",
+        "one_vs_rest_accuracy": "0.923894",
+        "support": "266",
+        "value": ""
+      },
+      {
+        "metric": "healthy",
+        "precision": "0.692308",
+        "recall": "0.870968",
+        "f1": "0.771429",
+        "one_vs_rest_accuracy": "0.971681",
+        "support": "31",
+        "value": ""
+      },
+      {
+        "metric": "macro_avg",
+        "precision": "0.818792",
+        "recall": "0.845607",
+        "f1": "0.829212",
+        "one_vs_rest_accuracy": "0.845607",
+        "support": "565",
+        "value": ""
+      },
+      {
+        "metric": "weighted_avg",
+        "precision": "0.877415",
+        "recall": "0.874336",
+        "f1": "0.874717",
+        "one_vs_rest_accuracy": "0.845607",
+        "support": "565",
+        "value": ""
+      },
+      {
+        "metric": "overall_accuracy",
+        "precision": "",
+        "recall": "",
+        "f1": "",
+        "one_vs_rest_accuracy": "",
+        "support": "",
+        "value": "0.874336"
+      },
+      {
+        "metric": "balanced_accuracy",
+        "precision": "",
+        "recall": "",
+        "f1": "",
+        "one_vs_rest_accuracy": "",
+        "support": "",
+        "value": "0.845607"
+      }
+    ],
+    "pngs": [
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\confusion_matrix.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\confusion_matrix_normalized.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\overall_metrics.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\per_class_accuracy.png",
+      "D:\\personal projects\\yolo models project\\project\\results\\final\\v8_s_pretrained_seed0_test\\per_class_prf.png"
+    ],
+    "reused_existing_evaluation": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch_error": "No module named 'torch'",
+  "ultralytics_error": "No module named 'torch'"
+}
